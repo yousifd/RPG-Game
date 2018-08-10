@@ -5,9 +5,11 @@
 #include <SDL_render.h>
 
 #include "Player.h"
+#include "Level.h"
 
 struct Game {
 	struct Player player;
+	struct Level level;
 	bool game_over;
 	SDL_Window* window;
 	SDL_Renderer* renderer;

@@ -21,13 +21,16 @@
     <ClCompile Include="Game.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Log.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Event.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -45,6 +48,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

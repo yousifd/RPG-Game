@@ -1,4 +1,4 @@
 #pragma once
 
-extern int WIDTH;
-extern int HEIGHT;
+#define WIDTH 1240
+#define HEIGHT 720
